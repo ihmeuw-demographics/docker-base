@@ -1,9 +1,10 @@
 FROM rocker/geospatial:4.0.2
 
-
-# install helper packages
-RUN R -e "install.packages('remotes', repos = 'http://cran.us.r-project.org')"
-RUN R -e "install.packages('devtools', repos = 'http://cran.us.r-project.org')"
+# install other packages (alphanumeric order)
+RUN install2.r --error --deps TRUE \
+    devtools \
+    remotes \
+    && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 
 # install tmb related packages

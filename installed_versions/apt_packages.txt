@@ -14,7 +14,7 @@ base-passwd/focal,now 3.5.47 amd64 [installed]
 bash-completion/focal,now 1:2.10-1ubuntu1 all [installed]
   programmable completion for the bash shell
 
-bash/focal,now 5.0-6ubuntu1 amd64 [installed]
+bash/focal-updates 5.0-6ubuntu1.1 amd64 [upgradable from: 5.0-6ubuntu1]
   GNU Bourne Again SHell
 
 bsdutils/focal,now 1:2.34-0.1ubuntu9 amd64 [installed]
@@ -113,7 +113,7 @@ init-system-helpers/focal,now 1.57 all [installed]
 lbzip2/focal,now 2.5-2 amd64 [installed]
   fast, multi-threaded bzip2 utility
 
-less/focal,now 551-1 amd64 [installed]
+less/focal-updates,now 551-1ubuntu0.1 amd64 [installed]
   pager program similar to more
 
 libacl1/focal,now 2.2.53-6 amd64 [installed]
@@ -542,7 +542,7 @@ rasqal-utils/focal,now 0.9.33-0.1 amd64 [installed]
 redland-utils/focal,now 1.0.17-1.1ubuntu1 amd64 [installed]
   Redland Resource Description Framework (RDF) Utility programs
 
-rstudio-server/now 1.3.959 amd64 [installed,local]
+rstudio-server/now 1.3.1056 amd64 [installed,local]
   RStudio Server
 
 sed/focal,now 4.7-1 amd64 [installed]
