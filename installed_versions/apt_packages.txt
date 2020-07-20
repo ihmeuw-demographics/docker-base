@@ -602,3 +602,607 @@ zip/focal,now 3.0-11build1 amd64 [installed]
 zlib1g/focal,now 1:1.2.11.dfsg-2ubuntu1 amd64 [installed]
   compression library - runtime
 
+Listing...
+adduser/focal,now 3.118ubuntu2 all [installed]
+  add and remove users and groups
+
+apt/focal-updates,focal-security,now 2.0.2ubuntu0.1 amd64 [installed]
+  commandline package manager
+
+base-files/focal,now 11ubuntu5 amd64 [installed]
+  Debian base system miscellaneous files
+
+base-passwd/focal,now 3.5.47 amd64 [installed]
+  Debian base system master password and group files
+
+bash-completion/focal,now 1:2.10-1ubuntu1 all [installed]
+  programmable completion for the bash shell
+
+bash/focal-updates 5.0-6ubuntu1.1 amd64 [upgradable from: 5.0-6ubuntu1]
+  GNU Bourne Again SHell
+
+bsdutils/focal,now 1:2.34-0.1ubuntu9 amd64 [installed]
+  basic utilities from 4.4BSD-Lite
+
+bzip2/focal,now 1.0.8-2 amd64 [installed]
+  high-quality block-sorting file compressor - utilities
+
+ca-certificates/focal-updates,focal-security,now 20190110ubuntu1.1 all [installed]
+  Common CA certificates
+
+cmake/focal,now 3.16.3-1ubuntu1 amd64 [installed]
+  cross-platform, open-source make system
+
+coreutils/focal,now 8.30-3ubuntu2 amd64 [installed]
+  GNU core utilities
+
+curl/focal-updates,focal-security,now 7.68.0-1ubuntu2.1 amd64 [installed]
+  command line tool for transferring data with URL syntax
+
+dash/focal,now 0.5.10.2-6 amd64 [installed]
+  POSIX-compliant shell
+
+debconf/focal,now 1.5.73 all [installed]
+  Debian configuration management system
+
+debianutils/focal,now 4.9.1 amd64 [installed]
+  Miscellaneous utilities specific to Debian
+
+default-jdk/focal,now 2:1.11-72 amd64 [installed]
+  Standard Java or Java compatible Development Kit
+
+default-libmysqlclient-dev/focal,now 1.0.5ubuntu2 amd64 [installed]
+  MySQL database development files (metapackage)
+
+diffutils/focal,now 1:3.7-3 amd64 [installed]
+  File comparison utilities
+
+dpkg/focal,now 1.19.7ubuntu3 amd64 [installed]
+  Debian package management system
+
+e2fsprogs/focal,now 1.45.5-2ubuntu1 amd64 [installed]
+  ext2/ext3/ext4 file system utilities
+
+fdisk/focal,now 2.34-0.1ubuntu9 amd64 [installed]
+  collection of partitioning utilities
+
+file/focal,now 1:5.38-4 amd64 [installed]
+  Recognize the type of data in a file using "magic" numbers
+
+findutils/focal,now 4.7.0-1ubuntu1 amd64 [installed]
+  utilities for finding files--find, xargs
+
+fonts-roboto/focal,now 2:0~20170802-3 all [installed]
+  metapackage to pull in Roboto fonts
+
+fonts-texgyre/focal,now 20180621-3 all [installed]
+  OpenType fonts based on URW Fonts
+
+g++/focal,now 4:9.3.0-1ubuntu2 amd64 [installed]
+  GNU C++ compiler
+
+gcc-10-base/focal,now 10-20200411-0ubuntu1 amd64 [installed]
+  GCC, the GNU Compiler Collection (base package)
+
+gfortran/focal,now 4:9.3.0-1ubuntu2 amd64 [installed]
+  GNU Fortran 95 compiler
+
+ghostscript/focal,now 9.50~dfsg-5ubuntu4 amd64 [installed]
+  interpreter for the PostScript language and for PDF
+
+git/focal,now 1:2.25.1-1ubuntu3 amd64 [installed]
+  fast, scalable, distributed revision control system
+
+gpgv/focal,now 2.2.19-3ubuntu2 amd64 [installed]
+  GNU privacy guard - signature verification tool
+
+grep/focal,now 3.4-1 amd64 [installed]
+  GNU grep, egrep and fgrep
+
+gsfonts/focal,now 1:8.11+urwcyr1.0.7~pre44-4.4 all [installed]
+  Fonts for the Ghostscript interpreter(s)
+
+gzip/focal,now 1.10-0ubuntu4 amd64 [installed]
+  GNU compression utilities
+
+hostname/focal,now 3.23 amd64 [installed]
+  utility to set/show the host name or domain name
+
+hugo/focal,now 0.68.3-1 amd64 [installed]
+  Fast and flexible Static Site Generator written in Go
+
+init-system-helpers/focal,now 1.57 all [installed]
+  helper tools for all init systems
+
+lbzip2/focal,now 2.5-2 amd64 [installed]
+  fast, multi-threaded bzip2 utility
+
+less/focal-updates,now 551-1ubuntu0.1 amd64 [installed]
+  pager program similar to more
+
+libacl1/focal,now 2.2.53-6 amd64 [installed]
+  access control list - shared library
+
+libapparmor1/focal-updates,now 2.13.3-7ubuntu5.1 amd64 [installed]
+  changehat AppArmor library
+
+libapt-pkg6.0/focal-updates,focal-security,now 2.0.2ubuntu0.1 amd64 [installed]
+  package management runtime library
+
+libattr1/focal,now 1:2.4.48-5 amd64 [installed]
+  extended attribute handling - shared library
+
+libaudit-common/focal,now 1:2.8.5-2ubuntu6 all [installed]
+  Dynamic library for security auditing - common files
+
+libaudit1/focal,now 1:2.8.5-2ubuntu6 amd64 [installed]
+  Dynamic library for security auditing
+
+libblas-dev/focal,now 3.9.0-1build1 amd64 [installed]
+  Basic Linear Algebra Subroutines 3, static library
+
+libblkid1/focal,now 2.34-0.1ubuntu9 amd64 [installed]
+  block device ID library
+
+libbz2-1.0/focal,now 1.0.8-2 amd64 [installed]
+  high-quality block-sorting file compressor library - runtime
+
+libbz2-dev/focal,now 1.0.8-2 amd64 [installed]
+  high-quality block-sorting file compressor library - development
+
+libbz2-ocaml/focal,now 0.6.0-10build1 amd64 [installed]
+  OCaml bindings for the bzip2 compression library (runtime)
+
+libc-bin/focal,now 2.31-0ubuntu9 amd64 [installed]
+  GNU C Library: Binaries
+
+libc6/focal,now 2.31-0ubuntu9 amd64 [installed]
+  GNU C Library: Shared libraries
+
+libcairo2-dev/focal,now 1.16.0-4ubuntu1 amd64 [installed]
+  Development files for the Cairo 2D graphics library
+
+libcap-ng0/focal,now 0.7.9-2.1build1 amd64 [installed]
+  An alternate POSIX capabilities library
+
+libclang-dev/focal,now 1:10.0-50~exp1 amd64 [installed]
+  clang library - Development package
+
+libcom-err2/focal,now 1.45.5-2ubuntu1 amd64 [installed]
+  common error description library
+
+libcrypt1/focal,now 1:4.4.10-10ubuntu4 amd64 [installed]
+  libcrypt shared library
+
+libcurl4-openssl-dev/focal-updates,focal-security,now 7.68.0-1ubuntu2.1 amd64 [installed]
+  development files and documentation for libcurl (OpenSSL flavour)
+
+libcurl4/focal-updates,focal-security,now 7.68.0-1ubuntu2.1 amd64 [installed]
+  easy-to-use client-side URL transfer library (OpenSSL flavour)
+
+libdb5.3/focal,now 5.3.28+dfsg1-0.6ubuntu2 amd64 [installed]
+  Berkeley v5.3 Database Libraries [runtime]
+
+libdebconfclient0/focal,now 0.251ubuntu1 amd64 [installed]
+  Debian Configuration Management System (C-implementation library)
+
+libedit2/focal,now 3.1-20191231-1 amd64 [installed]
+  BSD editline and history libraries
+
+libext2fs2/focal,now 1.45.5-2ubuntu1 amd64 [installed]
+  ext2/ext3/ext4 file system libraries
+
+libfdisk1/focal,now 2.34-0.1ubuntu9 amd64 [installed]
+  fdisk partitioning library
+
+libffi7/focal,now 3.3-4 amd64 [installed]
+  Foreign Function Interface library runtime
+
+libfftw3-dev/focal,now 3.3.8-2ubuntu1 amd64 [installed]
+  Library for computing Fast Fourier Transforms - development
+
+libgc1c2/focal,now 1:7.6.4-0.4ubuntu1 amd64 [installed]
+  conservative garbage collector for C and C++
+
+libgcc-s1/focal,now 10-20200411-0ubuntu1 amd64 [installed]
+  GCC support library
+
+libgcrypt20/focal,now 1.8.5-5ubuntu1 amd64 [installed]
+  LGPL Crypto library - runtime library
+
+libgdal-dev/focal,now 3.0.4+dfsg-1build3 amd64 [installed]
+  Geospatial Data Abstraction Library - Development files
+
+libgeos-dev/focal,now 3.8.0-1build1 amd64 [installed]
+  Geometry engine for GIS - Development files
+
+libgit2-dev/focal,now 0.28.4+dfsg.1-2 amd64 [installed]
+  low-level Git library (development files)
+
+libgl1-mesa-dev/focal-updates,now 20.0.8-0ubuntu1~20.04.1 amd64 [installed]
+  transitional dummy package
+
+libglpk-dev/focal,now 4.65-2 amd64 [installed]
+  linear programming kit - development files
+
+libglu1-mesa-dev/focal,now 9.0.1-1build1 amd64 [installed]
+  Mesa OpenGL utility library -- development files
+
+libgmp10/focal,now 2:6.2.0+dfsg-4 amd64 [installed]
+  Multiprecision arithmetic library
+
+libgmp3-dev/focal,now 2:6.2.0+dfsg-4 amd64 [installed]
+  Multiprecision arithmetic library developers tools
+
+libgnutls30/focal-updates 3.6.13-2ubuntu1.2 amd64 [upgradable from: 3.6.13-2ubuntu1.1]
+  GNU TLS library - main runtime library
+
+libgpg-error0/focal,now 1.37-1 amd64 [installed]
+  GnuPG development runtime library
+
+libgsl-dev/focal,now 2.5+dfsg-6build1 amd64 [installed]
+  GNU Scientific Library (GSL) -- development package
+
+libhdf4-alt-dev/focal,now 4.2.14-1ubuntu1 amd64 [installed]
+  Hierarchical Data Format development files (without NetCDF)
+
+libhdf5-dev/focal,now 1.10.4+repack-11ubuntu1 amd64 [installed]
+  Hierarchical Data Format 5 (HDF5) - development files - serial version
+
+libhogweed5/focal,now 3.5.1+really3.5.1-2 amd64 [installed]
+  low level cryptographic library (public-key cryptos)
+
+libhunspell-dev/focal,now 1.7.0-2build2 amd64 [installed]
+  spell checker and morphological analyzer (development)
+
+libicu-dev/focal,now 66.1-2ubuntu2 amd64 [installed]
+  Development files for International Components for Unicode
+
+libicu-le-hb0/focal,now 1.0.3+git180724-3build2 amd64 [installed]
+  ICU Layout Engine API on top of HarfBuzz shaping library
+
+libicu4j-4.4-java/focal,now 4.4.2.2-3 all [installed]
+  Library for Unicode support and internationalization
+
+libicu4j-java-doc/focal,now 62.1-2 all [installed]
+  Library for Unicode support and internationalization - Docs
+
+libicu4j-java/focal,now 62.1-2 all [installed]
+  Library for Unicode support and internationalization
+
+libicu66/focal,now 66.1-2ubuntu2 amd64 [installed]
+  International Components for Unicode
+
+libidn2-0/focal,now 2.2.0-2 amd64 [installed]
+  Internationalized domain names (IDNA2008/TR46) library
+
+libjpeg-turbo-progs/focal-updates,focal-security,now 2.0.3-0ubuntu1.20.04.1 amd64 [installed]
+  Programs for manipulating JPEG files
+
+libjpeg-turbo-test/focal-updates,focal-security,now 2.0.3-0ubuntu1.20.04.1 amd64 [installed]
+  Program for benchmarking and testing libjpeg-turbo
+
+libjpeg-turbo8-dbg/focal-updates,focal-security,now 2.0.3-0ubuntu1.20.04.1 amd64 [installed]
+  Debugging symbols for the libjpeg-turbo library
+
+libjpeg-turbo8-dev/focal-updates,focal-security,now 2.0.3-0ubuntu1.20.04.1 amd64 [installed]
+  Development files for the IJG JPEG library
+
+libjpeg-turbo8/focal-updates,focal-security,now 2.0.3-0ubuntu1.20.04.1 amd64 [installed]
+  IJG JPEG compliant runtime library.
+
+libjq-dev/focal,now 1.6-1 amd64 [installed]
+  lightweight and flexible command-line JSON processor - development files
+
+liblz4-1/focal,now 1.9.2-2 amd64 [installed]
+  Fast LZ compression algorithm library - runtime
+
+liblzma-dev/focal,now 5.2.4-1 amd64 [installed]
+  XZ-format compression library - development files
+
+liblzma-doc/focal,now 5.2.4-1 all [installed]
+  XZ-format compression library - API documentation
+
+liblzma5/focal,now 5.2.4-1 amd64 [installed]
+  XZ-format compression library
+
+libmagick++-dev/focal,now 8:6.9.10.23+dfsg-2.1ubuntu11 all [installed]
+  object-oriented C++ interface to ImageMagick -- dummy package
+
+libmount1/focal,now 2.34-0.1ubuntu9 amd64 [installed]
+  device mounting library
+
+libncurses6/focal,now 6.2-0ubuntu2 amd64 [installed]
+  shared libraries for terminal handling
+
+libncursesw6/focal,now 6.2-0ubuntu2 amd64 [installed]
+  shared libraries for terminal handling (wide character support)
+
+libnetcdf-dev/focal,now 1:4.7.3-1 amd64 [installed]
+  creation, access, and sharing of scientific data
+
+libnettle7/focal,now 3.5.1+really3.5.1-2 amd64 [installed]
+  low level cryptographic library (symmetric and one-way cryptos)
+
+libnode-dev/focal,now 10.19.0~dfsg-3ubuntu1 amd64 [installed]
+  evented I/O for V8 javascript (development files)
+
+libobjc4/focal,now 10-20200411-0ubuntu1 amd64 [installed]
+  Runtime library for GNU Objective-C applications
+
+libopenblas-openmp-dev/focal-updates,now 0.3.8+ds-1ubuntu0.20.04.1 amd64 [installed]
+  Optimized BLAS (linear algebra) library (dev, openmp)
+
+libopenmpi-dev/focal,now 4.0.3-0ubuntu1 amd64 [installed]
+  high performance message passing library -- header files
+
+libp11-kit0/focal,now 0.23.20-1build1 amd64 [installed]
+  library for loading and coordinating access to PKCS#11 modules - runtime
+
+libpam-modules-bin/focal,now 1.3.1-5ubuntu4 amd64 [installed]
+  Pluggable Authentication Modules for PAM - helper binaries
+
+libpam-modules/focal,now 1.3.1-5ubuntu4 amd64 [installed]
+  Pluggable Authentication Modules for PAM
+
+libpam-runtime/focal,now 1.3.1-5ubuntu4 all [installed]
+  Runtime support for the PAM library
+
+libpam0g/focal,now 1.3.1-5ubuntu4 amd64 [installed]
+  Pluggable Authentication Modules library
+
+libpangocairo-1.0-0/focal,now 1.44.7-2ubuntu4 amd64 [installed]
+  Layout and rendering of internationalized text
+
+libpcre2-16-0/focal,now 10.34-7 amd64 [installed]
+  New Perl Compatible Regular Expression Library - 16 bit runtime files
+
+libpcre2-32-0/focal,now 10.34-7 amd64 [installed]
+  New Perl Compatible Regular Expression Library - 32 bit runtime files
+
+libpcre2-8-0/focal,now 10.34-7 amd64 [installed]
+  New Perl Compatible Regular Expression Library- 8 bit runtime files
+
+libpcre2-dev/focal,now 10.34-7 amd64 [installed]
+  New Perl Compatible Regular Expression Library - development files
+
+libpcre2-posix2/focal,now 10.34-7 amd64 [installed]
+  New Perl Compatible Regular Expression Library - posix-compatible runtime files
+
+libpcre3/focal,now 2:8.39-12build1 amd64 [installed]
+  Old Perl 5 Compatible Regular Expression Library - runtime files
+
+libpng16-16/focal,now 1.6.37-2 amd64 [installed]
+  PNG library - runtime (version 1.6)
+
+libpq-dev/focal,now 12.2-4 amd64 [installed]
+  header files for libpq5 (PostgreSQL library)
+
+libprocps8/focal,now 2:3.3.16-1ubuntu2 amd64 [installed]
+  library for accessing process information from /proc
+
+libproj-dev/focal,now 6.3.1-1 amd64 [installed]
+  Cartographic projection library (development files)
+
+libprotobuf-dev/focal,now 3.6.1.3-2ubuntu5 amd64 [installed]
+  protocol buffers C++ library (development files) and proto files
+
+librdf0/focal,now 1.0.17-1.1ubuntu1 amd64 [installed]
+  Redland Resource Description Framework (RDF) library
+
+libreadline8/focal,now 8.0-4 amd64 [installed]
+  GNU readline and history libraries, run-time libraries
+
+libsasl2-dev/focal,now 2.1.27+dfsg-2 amd64 [installed]
+  Cyrus SASL - development files for authentication abstraction library
+
+libseccomp2/focal-updates,focal-security 2.4.3-1ubuntu3.20.04.2 amd64 [upgradable from: 2.4.3-1ubuntu1]
+  high level interface to Linux seccomp filter
+
+libselinux1/focal,now 3.0-1build2 amd64 [installed]
+  SELinux runtime shared libraries
+
+libsemanage-common/focal,now 3.0-1build2 all [installed]
+  Common files for SELinux policy management libraries
+
+libsemanage1/focal,now 3.0-1build2 amd64 [installed]
+  SELinux policy management library
+
+libsepol1/focal,now 3.0-1 amd64 [installed]
+  SELinux library for manipulating binary security policies
+
+libsmartcols1/focal,now 2.34-0.1ubuntu9 amd64 [installed]
+  smart column output alignment library
+
+libsqlite3-dev/focal-updates,focal-security,now 3.31.1-4ubuntu0.1 amd64 [installed]
+  SQLite 3 development files
+
+libss2/focal,now 1.45.5-2ubuntu1 amd64 [installed]
+  command-line interface parsing library
+
+libssh2-1-dev/focal,now 1.8.0-2.1build1 amd64 [installed]
+  SSH2 client-side library (development headers)
+
+libssl-dev/focal,now 1.1.1f-1ubuntu2 amd64 [installed]
+  Secure Sockets Layer toolkit - development files
+
+libstdc++6/focal,now 10-20200411-0ubuntu1 amd64 [installed]
+  GNU Standard C++ Library v3
+
+libsystemd0/focal-updates,now 245.4-4ubuntu3.1 amd64 [installed]
+  systemd utility library
+
+libtasn1-6/focal,now 4.16.0-2 amd64 [installed]
+  Manage ASN.1 structures (runtime)
+
+libtiff-doc/focal,now 4.1.0+git191117-2build1 all [installed]
+  TIFF manipulation and conversion documentation
+
+libtiff-opengl/focal,now 4.1.0+git191117-2build1 amd64 [installed]
+  TIFF manipulation and conversion tools
+
+libtiff-tools/focal,now 4.1.0+git191117-2build1 amd64 [installed]
+  TIFF manipulation and conversion tools
+
+libtiff5/focal,now 4.1.0+git191117-2build1 amd64 [installed]
+  Tag Image File Format (TIFF) library
+
+libtiffxx5/focal,now 4.1.0+git191117-2build1 amd64 [installed]
+  Tag Image File Format (TIFF) library -- C++ interface
+
+libtinfo6/focal,now 6.2-0ubuntu2 amd64 [installed]
+  shared low-level terminfo library for terminal handling
+
+libudev1/focal-updates,now 245.4-4ubuntu3.1 amd64 [installed]
+  libudev shared library
+
+libudunits2-dev/focal,now 2.2.26-5 amd64 [installed]
+  Development files for the libunits physical units package
+
+libunistring2/focal,now 0.9.10-2 amd64 [installed]
+  Unicode string library for C
+
+libuuid1/focal,now 2.34-0.1ubuntu9 amd64 [installed]
+  Universally Unique ID library
+
+libxml2-dev/focal,now 2.9.10+dfsg-5 amd64 [installed]
+  Development files for the GNOME XML library
+
+libxslt1-dev/focal,now 1.1.34-4 amd64 [installed]
+  XSLT 1.0 processing library - development kit
+
+libzmq3-dev/focal,now 4.3.2-2ubuntu1 amd64 [installed]
+  lightweight messaging kernel (development files)
+
+libzstd1/focal,now 1.4.4+dfsg-3 amd64 [installed]
+  fast lossless compression algorithm
+
+locales/focal,now 2.31-0ubuntu9 all [installed]
+  GNU C Library: National Language (locale) data [support]
+
+login/focal-updates 1:4.8.1-1ubuntu5.20.04 amd64 [upgradable from: 1:4.8.1-1ubuntu5]
+  system login tools
+
+logsave/focal,now 1.45.5-2ubuntu1 amd64 [installed]
+  save the output of a command in a log file
+
+lsb-base/focal,now 11.1.0ubuntu2 all [installed]
+  Linux Standard Base init script functionality
+
+lsb-release/focal,now 11.1.0ubuntu2 all [installed]
+  Linux Standard Base version reporting utility
+
+make/focal,now 4.2.1-1.2 amd64 [installed]
+  utility for directing compilation
+
+mawk/focal,now 1.3.4.20200120-2 amd64 [installed]
+  Pattern scanning and text processing language
+
+mount/focal,now 2.34-0.1ubuntu9 amd64 [installed]
+  tools for mounting and manipulating filesystems
+
+ncurses-base/focal,now 6.2-0ubuntu2 all [installed]
+  basic terminal type definitions
+
+ncurses-bin/focal,now 6.2-0ubuntu2 amd64 [installed]
+  terminal-related programs and man pages
+
+netcdf-bin/focal,now 1:4.7.3-1 amd64 [installed]
+  Programs for reading and writing NetCDF files
+
+passwd/focal-updates 1:4.8.1-1ubuntu5.20.04 amd64 [upgradable from: 1:4.8.1-1ubuntu5]
+  change and administer password and group data
+
+perl-base/focal,now 5.30.0-9build1 amd64 [installed]
+  minimal Perl system
+
+perl/focal,now 5.30.0-9build1 amd64 [installed]
+  Larry Wall's Practical Extraction and Report Language
+
+postgis/focal,now 3.0.0+dfsg-6ubuntu4 amd64 [installed]
+  Geographic objects support for PostgreSQL
+
+procps/focal,now 2:3.3.16-1ubuntu2 amd64 [installed]
+  /proc file system utilities
+
+protobuf-compiler/focal,now 3.6.1.3-2ubuntu5 amd64 [installed]
+  compiler for protocol buffer definition files
+
+psmisc/focal,now 23.3-1 amd64 [installed]
+  utilities that use the proc file system
+
+python-setuptools/focal,now 44.0.0-2 all [installed]
+  Python Distutils Enhancements
+
+qpdf/focal,now 9.1.1-1build1 amd64 [installed]
+  tools for transforming and inspecting PDF files
+
+raptor2-utils/focal,now 2.0.15-0ubuntu1 amd64 [installed]
+  Raptor 2 RDF parser and serializer utilities
+
+rasqal-utils/focal,now 0.9.33-0.1 amd64 [installed]
+  Rasqal RDF Query utilities
+
+redland-utils/focal,now 1.0.17-1.1ubuntu1 amd64 [installed]
+  Redland Resource Description Framework (RDF) Utility programs
+
+rstudio-server/now 1.3.1056 amd64 [installed,local]
+  RStudio Server
+
+sed/focal,now 4.7-1 amd64 [installed]
+  GNU stream editor for filtering/transforming text
+
+sensible-utils/focal,now 0.0.12+nmu1 all [installed]
+  Utilities for sensible alternative selection
+
+software-properties-common/focal-updates,now 0.98.9.1 all [installed]
+  manage the repositories that you install software from (common)
+
+sqlite3/focal-updates,focal-security,now 3.31.1-4ubuntu0.1 amd64 [installed]
+  Command line interface for SQLite 3
+
+sudo/focal,now 1.8.31-1ubuntu1 amd64 [installed]
+  Provide limited super user privileges to specific users
+
+sysvinit-utils/focal,now 2.96-2.1ubuntu1 amd64 [installed]
+  System-V-like utilities
+
+tar/focal,now 1.30+dfsg-7 amd64 [installed]
+  GNU version of the tar archiving utility
+
+texinfo/focal,now 6.7.0.dfsg.2-5 amd64 [installed]
+  Documentation system for on-line information and printed output
+
+texlive-local/now 2016-1~9 all [installed,local]
+  A local installation of TeX Live 2016.
+
+tk-dev/focal,now 8.6.9+1 amd64 [installed]
+  Toolkit for Tcl and X11 (default version) - development files
+
+ubuntu-keyring/focal,now 2020.02.11.2 all [installed]
+  GnuPG keys of the Ubuntu archive
+
+unixodbc-dev/focal,now 2.3.6-0.1build1 amd64 [installed]
+  ODBC libraries for UNIX (development files)
+
+unzip/focal,now 6.0-25ubuntu1 amd64 [installed]
+  De-archiver for .zip files
+
+util-linux/focal,now 2.34-0.1ubuntu9 amd64 [installed]
+  miscellaneous system utilities
+
+vim/focal,now 2:8.1.2269-1ubuntu5 amd64 [installed]
+  Vi IMproved - enhanced vi editor
+
+wget/focal,now 1.20.3-1ubuntu1 amd64 [installed]
+  retrieves files from the web
+
+xzdec/focal,now 5.2.4-1 amd64 [installed]
+  XZ-format compression utilities - tiny decompressors
+
+zip/focal,now 3.0-11build1 amd64 [installed]
+  Archiver for .zip files
+
+zlib1g/focal,now 1:1.2.11.dfsg-2ubuntu1 amd64 [installed]
+  compression library - runtime
+
