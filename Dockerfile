@@ -1,4 +1,4 @@
-FROM rocker/geospatial:4.0.2
+FROM rocker/geospatial:3.6.3
 
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
