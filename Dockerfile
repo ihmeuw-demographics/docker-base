@@ -6,6 +6,8 @@ RUN echo "umask 002" >> /etc/bash.bashrc
 
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
+    argparse
+    config
     devtools \
     remotes \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
