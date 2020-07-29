@@ -1,5 +1,6 @@
 Package,Version
 abind,1.4-5
+argparse,2.0.1
 askpass,1.1
 assertable,0.2.7
 assertive,0.3-5
@@ -51,6 +52,7 @@ colorspace,1.4-1
 colourpicker,1.0
 colourvalues,0.3.4
 commonmark,1.7
+config,0.3
 covr,3.5.0
 crayon,1.3.4
 crosstalk,1.1.0.1
@@ -83,6 +85,7 @@ fansi,0.4.1
 farver,2.0.3
 fastmap,1.0.1
 feather,0.3.5
+findpython,1.0.5
 flexmix,2.3-15
 FNN,1.1.3
 foghorn,1.1.5
