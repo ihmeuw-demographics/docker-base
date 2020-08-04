@@ -22,11 +22,13 @@ A list of available tags is available on [Github](https://github.com/ihmeuw-demo
 
 The following command tells docker to pull the ihmeuwdemographics/base image from [DockerHub](https://hub.docker.com/r/rocker/geospatial) with the tag `v{gbd_year}.{release_number}.{patch}`.
 This launches an Rstudio-Server session that is then accessible at the specified port http://localhost:8787.
-The default username and password is 'rstudio' and doesn't really need to be changed.
+The default username and password is 'rstudio' and shouldn't need to be changed.
 
 ```
 docker run --rm -p 8787:8787 ihmeuwdemographics/base:v{gbd_year}.{release_number}.{patch}
 ```
+
+If the default username and password 'rstudio' isn't working than try specifying a different password when running the container with the `-e PASSWORD={mypassword}` option
 
 ### Interacting with the local filesystem
 
