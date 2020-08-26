@@ -4,11 +4,32 @@ FROM rocker/geospatial:3.6.3
 RUN echo "umask 002" >> /etc/bash.bashrc
 
 
+# install system level dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    dos2unix \
+    libpython3-dev \
+    python3-dev \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+
+# install pip dependencies
+RUN python3 -m pip --no-cache-dir install --upgrade \
+  pip \
+  setuptools
+# install public python dependencies
+RUN python3 -m pip --no-cache-dir install --upgrade \
+  pymc3 \
+  PyPDF2 \
+  rpy2
+
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
     argparse \
+    arrow \
     config \
     devtools \
+    fs \
     pkgdown \
     remotes \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
