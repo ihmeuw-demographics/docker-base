@@ -12,8 +12,10 @@ apt-get update && apt-get install -y --no-install-recommends \
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
     argparse \
+    arrow \
     config \
     devtools \
+    fs \
     pkgdown \
     remotes \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
