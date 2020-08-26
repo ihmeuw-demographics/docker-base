@@ -4,6 +4,11 @@ FROM rocker/geospatial:3.6.3
 RUN echo "umask 002" >> /etc/bash.bashrc
 
 
+# install system level dependencies
+apt-get update && apt-get install -y --no-install-recommends \
+    dos2unix
+
+
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
     argparse \
