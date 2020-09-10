@@ -34,6 +34,9 @@ RUN install2.r --error --deps TRUE \
     config \
     devtools \
     fs \
+    ggrepel \
+    openxlsx \
+    pacman \
     pkgdown \
     remotes \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
