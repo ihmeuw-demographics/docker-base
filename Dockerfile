@@ -13,6 +13,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 
+# change default python to python3
+RUN echo "alias python=python3" >> /etc/bash.bashrc
+
 # install pip dependencies
 RUN python3 -m pip --no-cache-dir install --upgrade \
   pip \
@@ -22,6 +25,7 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
   pymc3 \
   PyPDF2 \
   rpy2
+
 
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
