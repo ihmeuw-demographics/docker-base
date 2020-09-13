@@ -27,12 +27,12 @@ jobs:
         push: ${{ startsWith(github.ref, 'refs/tags/') }}
 
     - name: Identify package versions
-      if: ${{ github.event_name == 'pull_request' }}
+      if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') }}
       run: |
-        chmod +x ./installed_versions/get_versions.sh
-        ./installed_versions/get_versions.sh
+        chmod +x ./installed_versions/scripts/get_versions.sh
+        ./installed_versions/scripts/get_versions.sh ${{ github.event.release.tag_name }}
 
     - uses: stefanzweifel/git-auto-commit-action@v4
-      if: ${{ github.event_name == 'pull_request' }}
+      if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') }}
       with:
-        commit_message: "Update software/package versions included in PR"
+        commit_message: "Document software/package versions included in new tagged build"
