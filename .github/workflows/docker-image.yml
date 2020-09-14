@@ -41,3 +41,4 @@ jobs:
       if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') }}
       with:
         commit_message: "Document software/package versions included in new tagged build"
+        branch: master
