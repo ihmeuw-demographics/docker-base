@@ -2,6 +2,8 @@ FROM rocker/geospatial:3.6.3
 
 # set default umask
 RUN echo "umask 002" >> /etc/bash.bashrc
+# have Rstudio server use the default umask https://docs.rstudio.com/ide/server-pro/access-and-security.html#umask
+RUN echo "server-set-umask=0" >> /etc/rstudio/rserver.conf
 
 
 # install system level dependencies
