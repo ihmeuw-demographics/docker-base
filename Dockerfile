@@ -27,7 +27,8 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
   pymc3 \
   PyPDF2 \
   rpy2
-
+# fix rpy2 per solution here https://github.com/darribas/gds_env/issues/2 with path to `libR.so`
+ENV LD_LIBRARY_PATH=/usr/local/lib/R/lib/:${LD_LIBRARY_PATH}
 
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
