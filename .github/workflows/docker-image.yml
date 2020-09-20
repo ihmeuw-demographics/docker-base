@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout reference or SHA for event that triggered workflow
+      uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
         
@@ -30,6 +31,10 @@ jobs:
         repository: ihmeuwdemographics/base
         tag_with_ref: true
         push: ${{ startsWith(github.ref, 'refs/tags/') }}
+
+    - name: checkout default branch
+      if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') }}
+      uses: actions/checkout@v2
 
     - name: Identify package versions
       if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') }}
