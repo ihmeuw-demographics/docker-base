@@ -32,7 +32,7 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
     argparse \
-    arrow \
+    # arrow \
     config \
     devtools \
     fs \
@@ -41,6 +41,8 @@ RUN install2.r --error --deps TRUE \
     pacman \
     pkgdown \
     remotes \
+    # install temporary development version until cran version is updated https://arrow.apache.org/docs/r/index.html
+    && R -e 'install.packages("arrow", repos = "https://dl.bintray.com/ursalabs/arrow-r"); library(arrow)' \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 
