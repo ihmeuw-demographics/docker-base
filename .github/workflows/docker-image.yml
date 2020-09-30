@@ -4,7 +4,7 @@ on:
   push:
     tags: [ '*' ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
@@ -35,6 +35,8 @@ jobs:
     - name: checkout default branch
       if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') }}
       uses: actions/checkout@v2
+      with:
+        ref: 'main'
 
     - name: Identify package versions
       if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') }}
@@ -46,4 +48,3 @@ jobs:
       if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') }}
       with:
         commit_message: "Document software/package versions included in new tagged build"
-        branch: master
