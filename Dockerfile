@@ -41,7 +41,9 @@ RUN install2.r --error --deps TRUE \
     openxlsx \
     pacman \
     pkgdown \
+    readstata13 \
     remotes \
+    rjson \
     # install temporary development version until cran version is updated https://arrow.apache.org/docs/r/index.html
     && R -e 'install.packages("arrow", repos = "https://dl.bintray.com/ursalabs/arrow-r"); library(arrow)' \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
