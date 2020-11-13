@@ -1,7 +1,7 @@
 Package,Version
 abind,1.4-5
 argparse,2.0.1
-arrow,1.0.0.20200814
+arrow,0.17.0
 askpass,1.1
 assertable,0.2.7
 assertive,0.3-5
