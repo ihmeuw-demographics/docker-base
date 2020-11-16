@@ -30,6 +30,14 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
 # fix rpy2 per solution here https://github.com/darribas/gds_env/issues/2 with path to `libR.so`
 ENV LD_LIBRARY_PATH=/usr/local/lib/R/lib/:${LD_LIBRARY_PATH}
 
+# update mran snapshot mirror to use when installing R packages
+# see 'Versioned' section here https://journal.r-project.org/archive/2017/RJ-2017-065/RJ-2017-065.pdf
+# and Dockerfile from rocker builds https://hub.docker.com/r/rocker/r-ver/dockerfile
+RUN BASE_BUILD_DATE=$(date +"%Y-%m-%d") \
+  && MRAN=https://mran.microsoft.com/snapshot/${BASE_BUILD_DATE} \
+  && echo MRAN=$MRAN >> /etc/environment \
+  && echo "options(repos = c(CRAN='$MRAN'), download.file.method = 'libcurl')" >> /usr/local/lib/R/etc/Rprofile.site
+
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
     argparse \
@@ -44,10 +52,7 @@ RUN install2.r --error --deps TRUE \
     readstata13 \
     remotes \
     rjson \
-    && rm -rf /tmp/downloaded_packages/ /tmp/*.rds \
-    # this theoretically isn't needed but c++ dependencies are not getting installed above
-    # https://arrow.apache.org/docs/r/articles/install.html#troubleshooting-and-additional-options-1
-    && R -e "arrow::install_arrow()"
+    && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 
 # install tmb related packages
