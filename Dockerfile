@@ -1,4 +1,4 @@
-FROM rocker/geospatial:3.6.3
+FROM rocker/geospatial:4.0.3
 
 # set default umask
 RUN echo "umask 002" >> /etc/bash.bashrc
@@ -30,6 +30,7 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
 # fix rpy2 per solution here https://github.com/darribas/gds_env/issues/2 with path to `libR.so`
 ENV LD_LIBRARY_PATH=/usr/local/lib/R/lib/:${LD_LIBRARY_PATH}
 
+
 # install other packages (alphanumeric order)
 RUN install2.r --error --deps TRUE \
     argparse \
@@ -44,10 +45,7 @@ RUN install2.r --error --deps TRUE \
     readstata13 \
     remotes \
     rjson \
-    && rm -rf /tmp/downloaded_packages/ /tmp/*.rds \
-    # this theoretically isn't needed but c++ dependencies are not getting installed above
-    # https://arrow.apache.org/docs/r/articles/install.html#troubleshooting-and-additional-options-1
-    && R -e "arrow::install_arrow()"
+    && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 
 # install tmb related packages
