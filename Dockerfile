@@ -1,4 +1,4 @@
-FROM rocker/geospatial:3.6.3
+FROM rocker/geospatial:4.0.3
 
 # set default umask
 RUN echo "umask 002" >> /etc/bash.bashrc
