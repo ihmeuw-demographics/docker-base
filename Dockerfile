@@ -9,19 +9,13 @@ RUN echo "Sys.umask(2)" >> /usr/local/lib/R/etc/Rprofile.site
 # install system level dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     dos2unix \
-    libpython3-dev \
-    python3-dev \
-    python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
 
-# change default python to python3
-RUN echo "alias python=python3" >> /etc/bash.bashrc
+# use rocker scripts to install basic python dependencies
+# https://github.com/rocker-org/rocker-versioned2/
+RUN /rocker_scripts/install_python.sh
 
-# install pip dependencies
-RUN python3 -m pip --no-cache-dir install --upgrade \
-  pip \
-  setuptools
 # install public python dependencies
 RUN python3 -m pip --no-cache-dir install --upgrade \
   pymc3 \
