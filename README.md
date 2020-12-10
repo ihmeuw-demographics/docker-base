@@ -20,7 +20,7 @@ Follow the directions [here](https://docs.docker.com/get-started/#set-up-your-do
 Before running the container the user needs to know the tag (version) of the image they want to use. How images are versioned is documented on the [wiki](https://github.com/ihmeuw-demographics/docker-base/wiki/How-the-docker-image-is-versioned-and-pushed-to-Docker-Hub#tag-versioning-system).
 A list of available tags is available on [Github](https://github.com/ihmeuw-demographics/docker-base/releases) or on [Docker Hub](https://hub.docker.com/r/ihmeuwdemographics/base/tags).
 
-The following command tells docker to pull the ihmeuwdemographics/base image from [DockerHub](https://hub.docker.com/r/rocker/geospatial) with the tag `v{gbd_year}.{release_number}.{patch}`.
+The following command tells docker to pull the ihmeuwdemographics/base image from [DockerHub](https://hub.docker.com/r/ihmeuwdemographics/base) with the tag `v{gbd_year}.{release_number}.{patch}`.
 This launches an Rstudio-Server session that is then accessible at the specified port http://localhost:8787.
 The default username and password is 'rstudio' and shouldn't need to be changed.
 
