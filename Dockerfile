@@ -43,7 +43,7 @@ RUN install2.r --error --deps TRUE \
     ggrepel \
     HMDHFDplus \
     openxlsx \
-    pacman \ TODO: consider removing since this strategy isn't recommended long term
+    pacman \ # TODO: consider removing since this strategy isn't recommended long term
     pkgdown \
     pscl \ # for zero-inflated poisson regression
     readstata13 \ # for reading in stata files produced by legacy code TODO: consider removing
