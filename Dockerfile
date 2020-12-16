@@ -26,6 +26,7 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
 RUN python3 -m pip --no-cache-dir install --upgrade \
   pymc3 \
   PyPDF2 \
+  regmod \
   rpy2
 # fix rpy2 per solution here https://github.com/darribas/gds_env/issues/2 with path to `libR.so`
 ENV LD_LIBRARY_PATH=/usr/local/lib/R/lib/:${LD_LIBRARY_PATH}
@@ -36,15 +37,18 @@ RUN install2.r --error --deps TRUE \
     argparse \
     arrow \
     config \
+    demogR \
     devtools \
     fs \
     ggrepel \
+    HMDHFDplus \
     openxlsx \
-    pacman \
+    pacman \ TODO: consider removing since this strategy isn't recommended long term
     pkgdown \
-    readstata13 \
+    pscl \ # for zero-inflated poisson regression
+    readstata13 \ # for reading in stata files produced by legacy code TODO: consider removing
     remotes \
-    rjson \
+    rjson \ # for old code that uses json configs TODO: consider removing
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 
