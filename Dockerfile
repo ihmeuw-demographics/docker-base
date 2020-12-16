@@ -26,6 +26,7 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
 RUN python3 -m pip --no-cache-dir install --upgrade \
   pymc3 \
   PyPDF2 \
+  regmod \
   rpy2
 # fix rpy2 per solution here https://github.com/darribas/gds_env/issues/2 with path to `libR.so`
 ENV LD_LIBRARY_PATH=/usr/local/lib/R/lib/:${LD_LIBRARY_PATH}
@@ -36,12 +37,15 @@ RUN install2.r --error --deps TRUE \
     argparse \
     arrow \
     config \
+    demogR \
     devtools \
     fs \
     ggrepel \
+    HMDHFDplus \
     openxlsx \
     pacman \
     pkgdown \
+    pscl \
     readstata13 \
     remotes \
     rjson \
