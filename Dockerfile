@@ -43,12 +43,12 @@ RUN install2.r --error --deps TRUE \
     ggrepel \
     HMDHFDplus \
     openxlsx \
-    pacman \ # TODO: consider removing since this strategy isn't recommended long term
+    pacman \
     pkgdown \
-    pscl \ # for zero-inflated poisson regression
-    readstata13 \ # for reading in stata files produced by legacy code TODO: consider removing
+    pscl \
+    readstata13 \
     remotes \
-    rjson \ # for old code that uses json configs TODO: consider removing
+    rjson \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
 
