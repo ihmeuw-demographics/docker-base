@@ -60,6 +60,7 @@ RUN install2.r --error --deps TRUE \
 
 # install tmb related packages
 RUN install2.r --error --deps TRUE \
+    Matrix \
     TMB \
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 RUN R -e "remotes::install_github('mlysy/TMBtools', dependencies = TRUE)"
