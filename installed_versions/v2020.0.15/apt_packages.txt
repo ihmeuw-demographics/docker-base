@@ -1,0 +1,625 @@
+Listing...
+adduser/now 3.118ubuntu2 all [installed,local]
+  add and remove users and groups
+
+apt/now 2.0.2ubuntu0.1 amd64 [installed,local]
+  commandline package manager
+
+base-files/now 11ubuntu5 amd64 [installed,local]
+  Debian base system miscellaneous files
+
+base-passwd/now 3.5.47 amd64 [installed,local]
+  Debian base system master password and group files
+
+bash-completion/now 1:2.10-1ubuntu1 all [installed,local]
+  programmable completion for the bash shell
+
+bash/now 5.0-6ubuntu1 amd64 [installed,local]
+  GNU Bourne Again SHell
+
+bsdutils/now 1:2.34-0.1ubuntu9 amd64 [installed,local]
+  basic utilities from 4.4BSD-Lite
+
+bzip2/now 1.0.8-2 amd64 [installed,local]
+  high-quality block-sorting file compressor - utilities
+
+ca-certificates/now 20201027ubuntu0.20.04.1 all [installed,local]
+  Common CA certificates
+
+cmake/now 3.16.3-1ubuntu1 amd64 [installed,local]
+  cross-platform, open-source make system
+
+coreutils/now 8.30-3ubuntu2 amd64 [installed,local]
+  GNU core utilities
+
+curl/now 7.68.0-1ubuntu2.2 amd64 [installed,local]
+  command line tool for transferring data with URL syntax
+
+dash/now 0.5.10.2-6 amd64 [installed,local]
+  POSIX-compliant shell
+
+debconf/now 1.5.73 all [installed,local]
+  Debian configuration management system
+
+debianutils/now 4.9.1 amd64 [installed,local]
+  Miscellaneous utilities specific to Debian
+
+default-jdk/now 2:1.11-72 amd64 [installed,local]
+  Standard Java or Java compatible Development Kit
+
+default-libmysqlclient-dev/now 1.0.5ubuntu2 amd64 [installed,local]
+  MySQL database development files (metapackage)
+
+diffutils/now 1:3.7-3 amd64 [installed,local]
+  File comparison utilities
+
+dos2unix/now 7.4.0-2 amd64 [installed,local]
+  convert text file line endings between CRLF and LF
+
+dpkg/now 1.19.7ubuntu3 amd64 [installed,local]
+  Debian package management system
+
+e2fsprogs/now 1.45.5-2ubuntu1 amd64 [installed,local]
+  ext2/ext3/ext4 file system utilities
+
+fdisk/now 2.34-0.1ubuntu9 amd64 [installed,local]
+  collection of partitioning utilities
+
+file/now 1:5.38-4 amd64 [installed,local]
+  Recognize the type of data in a file using "magic" numbers
+
+findutils/now 4.7.0-1ubuntu1 amd64 [installed,local]
+  utilities for finding files--find, xargs
+
+fonts-roboto/now 2:0~20170802-3 all [installed,local]
+  metapackage to pull in Roboto fonts
+
+fonts-texgyre/now 20180621-3 all [installed,local]
+  OpenType fonts based on URW Fonts
+
+g++/now 4:9.3.0-1ubuntu2 amd64 [installed,local]
+  GNU C++ compiler
+
+gcc-10-base/now 10.2.0-5ubuntu1~20.04 amd64 [installed,local]
+  GCC, the GNU Compiler Collection (base package)
+
+gdal-bin/now 3.0.4+dfsg-1build3 amd64 [installed,local]
+  Geospatial Data Abstraction Library - Utility programs
+
+gfortran/now 4:9.3.0-1ubuntu2 amd64 [installed,local]
+  GNU Fortran 95 compiler
+
+ghostscript/now 9.50~dfsg-5ubuntu4.2 amd64 [installed,local]
+  interpreter for the PostScript language and for PDF
+
+git/now 1:2.25.1-1ubuntu3 amd64 [installed,local]
+  fast, scalable, distributed revision control system
+
+gpgv/now 2.2.19-3ubuntu2 amd64 [installed,local]
+  GNU privacy guard - signature verification tool
+
+grep/now 3.4-1 amd64 [installed,local]
+  GNU grep, egrep and fgrep
+
+gsfonts/now 1:8.11+urwcyr1.0.7~pre44-4.4 all [installed,local]
+  Fonts for the Ghostscript interpreter(s)
+
+gzip/now 1.10-0ubuntu4 amd64 [installed,local]
+  GNU compression utilities
+
+hostname/now 3.23 amd64 [installed,local]
+  utility to set/show the host name or domain name
+
+hugo/now 0.68.3-1 amd64 [installed,local]
+  Fast and flexible Static Site Generator written in Go
+
+init-system-helpers/now 1.57 all [installed,local]
+  helper tools for all init systems
+
+lbzip2/now 2.5-2 amd64 [installed,local]
+  fast, multi-threaded bzip2 utility
+
+less/now 551-1ubuntu0.1 amd64 [installed,local]
+  pager program similar to more
+
+libacl1/now 2.2.53-6 amd64 [installed,local]
+  access control list - shared library
+
+libapparmor1/now 2.13.3-7ubuntu5.1 amd64 [installed,local]
+  changehat AppArmor library
+
+libapt-pkg6.0/now 2.0.2ubuntu0.1 amd64 [installed,local]
+  package management runtime library
+
+libattr1/now 1:2.4.48-5 amd64 [installed,local]
+  extended attribute handling - shared library
+
+libaudit-common/now 1:2.8.5-2ubuntu6 all [installed,local]
+  Dynamic library for security auditing - common files
+
+libaudit1/now 1:2.8.5-2ubuntu6 amd64 [installed,local]
+  Dynamic library for security auditing
+
+libblas-dev/now 3.9.0-1build1 amd64 [installed,local]
+  Basic Linear Algebra Subroutines 3, static library
+
+libblkid1/now 2.34-0.1ubuntu9.1 amd64 [installed,local]
+  block device ID library
+
+libbz2-1.0/now 1.0.8-2 amd64 [installed,local]
+  high-quality block-sorting file compressor library - runtime
+
+libbz2-dev/now 1.0.8-2 amd64 [installed,local]
+  high-quality block-sorting file compressor library - development
+
+libbz2-ocaml/now 0.6.0-10build1 amd64 [installed,local]
+  OCaml bindings for the bzip2 compression library (runtime)
+
+libc-bin/now 2.31-0ubuntu9 amd64 [installed,local]
+  GNU C Library: Binaries
+
+libc6/now 2.31-0ubuntu9.1 amd64 [installed,local]
+  GNU C Library: Shared libraries
+
+libcairo2-dev/now 1.16.0-4ubuntu1 amd64 [installed,local]
+  Development files for the Cairo 2D graphics library
+
+libcap-ng0/now 0.7.9-2.1build1 amd64 [installed,local]
+  An alternate POSIX capabilities library
+
+libclang-dev/now 1:10.0-50~exp1 amd64 [installed,local]
+  clang library - Development package
+
+libcom-err2/now 1.45.5-2ubuntu1 amd64 [installed,local]
+  common error description library
+
+libcrypt1/now 1:4.4.10-10ubuntu4 amd64 [installed,local]
+  libcrypt shared library
+
+libcurl4-openssl-dev/now 7.68.0-1ubuntu2.2 amd64 [installed,local]
+  development files and documentation for libcurl (OpenSSL flavour)
+
+libcurl4/now 7.68.0-1ubuntu2.2 amd64 [installed,local]
+  easy-to-use client-side URL transfer library (OpenSSL flavour)
+
+libdb5.3/now 5.3.28+dfsg1-0.6ubuntu2 amd64 [installed,local]
+  Berkeley v5.3 Database Libraries [runtime]
+
+libdebconfclient0/now 0.251ubuntu1 amd64 [installed,local]
+  Debian Configuration Management System (C-implementation library)
+
+libedit2/now 3.1-20191231-1 amd64 [installed,local]
+  BSD editline and history libraries
+
+libext2fs2/now 1.45.5-2ubuntu1 amd64 [installed,local]
+  ext2/ext3/ext4 file system libraries
+
+libfdisk1/now 2.34-0.1ubuntu9 amd64 [installed,local]
+  fdisk partitioning library
+
+libffi7/now 3.3-4 amd64 [installed,local]
+  Foreign Function Interface library runtime
+
+libfftw3-dev/now 3.3.8-2ubuntu1 amd64 [installed,local]
+  Library for computing Fast Fourier Transforms - development
+
+libfribidi-dev/now 1.0.8-2 amd64 [installed,local]
+  Development files for FreeBidi library
+
+libgc1c2/now 1:7.6.4-0.4ubuntu1 amd64 [installed,local]
+  conservative garbage collector for C and C++
+
+libgcc-s1/now 10.2.0-5ubuntu1~20.04 amd64 [installed,local]
+  GCC support library
+
+libgcrypt20/now 1.8.5-5ubuntu1 amd64 [installed,local]
+  LGPL Crypto library - runtime library
+
+libgdal-dev/now 3.0.4+dfsg-1build3 amd64 [installed,local]
+  Geospatial Data Abstraction Library - Development files
+
+libgeos-dev/now 3.8.0-1build1 amd64 [installed,local]
+  Geometry engine for GIS - Development files
+
+libgit2-dev/now 0.28.4+dfsg.1-2 amd64 [installed,local]
+  low-level Git library (development files)
+
+libgl1-mesa-dev/now 20.0.8-0ubuntu1~20.04.1 amd64 [installed,local]
+  transitional dummy package
+
+libglpk-dev/now 4.65-2 amd64 [installed,local]
+  linear programming kit - development files
+
+libglu1-mesa-dev/now 9.0.1-1build1 amd64 [installed,local]
+  Mesa OpenGL utility library -- development files
+
+libgmp10/now 2:6.2.0+dfsg-4 amd64 [installed,local]
+  Multiprecision arithmetic library
+
+libgmp3-dev/now 2:6.2.0+dfsg-4 amd64 [installed,local]
+  Multiprecision arithmetic library developers tools
+
+libgnutls30/now 3.6.13-2ubuntu1.1 amd64 [installed,local]
+  GNU TLS library - main runtime library
+
+libgpg-error0/now 1.37-1 amd64 [installed,local]
+  GnuPG development runtime library
+
+libgsl-dev/now 2.5+dfsg-6build1 amd64 [installed,local]
+  GNU Scientific Library (GSL) -- development package
+
+libharfbuzz-dev/now 2.6.4-1ubuntu4 amd64 [installed,local]
+  Development files for OpenType text shaping engine
+
+libhdf4-alt-dev/now 4.2.14-1ubuntu1 amd64 [installed,local]
+  Hierarchical Data Format development files (without NetCDF)
+
+libhdf5-dev/now 1.10.4+repack-11ubuntu1 amd64 [installed,local]
+  Hierarchical Data Format 5 (HDF5) - development files - serial version
+
+libhogweed5/now 3.5.1+really3.5.1-2 amd64 [installed,local]
+  low level cryptographic library (public-key cryptos)
+
+libhunspell-dev/now 1.7.0-2build2 amd64 [installed,local]
+  spell checker and morphological analyzer (development)
+
+libicu-dev/now 66.1-2ubuntu2 amd64 [installed,local]
+  Development files for International Components for Unicode
+
+libicu-le-hb0/now 1.0.3+git180724-3build2 amd64 [installed,local]
+  ICU Layout Engine API on top of HarfBuzz shaping library
+
+libicu4j-4.4-java/now 4.4.2.2-3 all [installed,local]
+  Library for Unicode support and internationalization
+
+libicu4j-java-doc/now 62.1-2 all [installed,local]
+  Library for Unicode support and internationalization - Docs
+
+libicu4j-java/now 62.1-2 all [installed,local]
+  Library for Unicode support and internationalization
+
+libicu66/now 66.1-2ubuntu2 amd64 [installed,local]
+  International Components for Unicode
+
+libidn2-0/now 2.2.0-2 amd64 [installed,local]
+  Internationalized domain names (IDNA2008/TR46) library
+
+libjpeg-turbo-progs/now 2.0.3-0ubuntu1.20.04.1 amd64 [installed,local]
+  Programs for manipulating JPEG files
+
+libjpeg-turbo-test/now 2.0.3-0ubuntu1.20.04.1 amd64 [installed,local]
+  Program for benchmarking and testing libjpeg-turbo
+
+libjpeg-turbo8-dbg/now 2.0.3-0ubuntu1.20.04.1 amd64 [installed,local]
+  Debugging symbols for the libjpeg-turbo library
+
+libjpeg-turbo8-dev/now 2.0.3-0ubuntu1.20.04.1 amd64 [installed,local]
+  Development files for the IJG JPEG library
+
+libjpeg-turbo8/now 2.0.3-0ubuntu1.20.04.1 amd64 [installed,local]
+  IJG JPEG compliant runtime library.
+
+libjq-dev/now 1.6-1 amd64 [installed,local]
+  lightweight and flexible command-line JSON processor - development files
+
+liblz4-1/now 1.9.2-2 amd64 [installed,local]
+  Fast LZ compression algorithm library - runtime
+
+liblzma-dev/now 5.2.4-1ubuntu1 amd64 [installed,local]
+  XZ-format compression library - development files
+
+liblzma-doc/now 5.2.4-1ubuntu1 all [installed,local]
+  XZ-format compression library - API documentation
+
+liblzma5/now 5.2.4-1ubuntu1 amd64 [installed,local]
+  XZ-format compression library
+
+libmagick++-dev/now 8:6.9.10.23+dfsg-2.1ubuntu11.1 all [installed,local]
+  object-oriented C++ interface to ImageMagick -- dummy package
+
+libmount1/now 2.34-0.1ubuntu9.1 amd64 [installed,local]
+  device mounting library
+
+libncurses6/now 6.2-0ubuntu2 amd64 [installed,local]
+  shared libraries for terminal handling
+
+libncursesw6/now 6.2-0ubuntu2 amd64 [installed,local]
+  shared libraries for terminal handling (wide character support)
+
+libnetcdf-dev/now 1:4.7.3-1 amd64 [installed,local]
+  creation, access, and sharing of scientific data
+
+libnettle7/now 3.5.1+really3.5.1-2 amd64 [installed,local]
+  low level cryptographic library (symmetric and one-way cryptos)
+
+libnode-dev/now 10.19.0~dfsg-3ubuntu1 amd64 [installed,local]
+  evented I/O for V8 javascript (development files)
+
+libobjc4/now 10.2.0-5ubuntu1~20.04 amd64 [installed,local]
+  Runtime library for GNU Objective-C applications
+
+libopenblas-dev/now 0.3.8+ds-1ubuntu0.20.04.1 amd64 [installed,local]
+  Optimized BLAS (linear algebra) library (dev, meta)
+
+libopenmpi-dev/now 4.0.3-0ubuntu1 amd64 [installed,local]
+  high performance message passing library -- header files
+
+libp11-kit0/now 0.23.20-1build1 amd64 [installed,local]
+  library for loading and coordinating access to PKCS#11 modules - runtime
+
+libpam-modules-bin/now 1.3.1-5ubuntu4 amd64 [installed,local]
+  Pluggable Authentication Modules for PAM - helper binaries
+
+libpam-modules/now 1.3.1-5ubuntu4 amd64 [installed,local]
+  Pluggable Authentication Modules for PAM
+
+libpam-runtime/now 1.3.1-5ubuntu4 all [installed,local]
+  Runtime support for the PAM library
+
+libpam0g/now 1.3.1-5ubuntu4 amd64 [installed,local]
+  Pluggable Authentication Modules library
+
+libpangocairo-1.0-0/now 1.44.7-2ubuntu4 amd64 [installed,local]
+  Layout and rendering of internationalized text
+
+libpcre2-16-0/now 10.34-7 amd64 [installed,local]
+  New Perl Compatible Regular Expression Library - 16 bit runtime files
+
+libpcre2-32-0/now 10.34-7 amd64 [installed,local]
+  New Perl Compatible Regular Expression Library - 32 bit runtime files
+
+libpcre2-8-0/now 10.34-7 amd64 [installed,local]
+  New Perl Compatible Regular Expression Library- 8 bit runtime files
+
+libpcre2-dev/now 10.34-7 amd64 [installed,local]
+  New Perl Compatible Regular Expression Library - development files
+
+libpcre2-posix2/now 10.34-7 amd64 [installed,local]
+  New Perl Compatible Regular Expression Library - posix-compatible runtime files
+
+libpcre3/now 2:8.39-12build1 amd64 [installed,local]
+  Old Perl 5 Compatible Regular Expression Library - runtime files
+
+libpng16-16/now 1.6.37-2 amd64 [installed,local]
+  PNG library - runtime (version 1.6)
+
+libpq-dev/now 12.5-0ubuntu0.20.04.1 amd64 [installed,local]
+  header files for libpq5 (PostgreSQL library)
+
+libpq5/now 12.5-0ubuntu0.20.04.1 amd64 [installed,local]
+  PostgreSQL C client library
+
+libprocps8/now 2:3.3.16-1ubuntu2 amd64 [installed,local]
+  library for accessing process information from /proc
+
+libproj-dev/now 6.3.1-1 amd64 [installed,local]
+  Cartographic projection library (development files)
+
+libprotobuf-dev/now 3.6.1.3-2ubuntu5 amd64 [installed,local]
+  protocol buffers C++ library (development files) and proto files
+
+libpython3-dev/now 3.8.2-0ubuntu2 amd64 [installed,local]
+  header files and a static library for Python (default)
+
+librdf0/now 1.0.17-1.1ubuntu1 amd64 [installed,local]
+  Redland Resource Description Framework (RDF) library
+
+libreadline8/now 8.0-4 amd64 [installed,local]
+  GNU readline and history libraries, run-time libraries
+
+libsasl2-dev/now 2.1.27+dfsg-2 amd64 [installed,local]
+  Cyrus SASL - development files for authentication abstraction library
+
+libseccomp2/now 2.4.3-1ubuntu1 amd64 [installed,local]
+  high level interface to Linux seccomp filter
+
+libselinux1/now 3.0-1build2 amd64 [installed,local]
+  SELinux runtime shared libraries
+
+libsemanage-common/now 3.0-1build2 all [installed,local]
+  Common files for SELinux policy management libraries
+
+libsemanage1/now 3.0-1build2 amd64 [installed,local]
+  SELinux policy management library
+
+libsepol1/now 3.0-1 amd64 [installed,local]
+  SELinux library for manipulating binary security policies
+
+libsmartcols1/now 2.34-0.1ubuntu9 amd64 [installed,local]
+  smart column output alignment library
+
+libsqlite3-dev/now 3.31.1-4ubuntu0.2 amd64 [installed,local]
+  SQLite 3 development files
+
+libss2/now 1.45.5-2ubuntu1 amd64 [installed,local]
+  command-line interface parsing library
+
+libssh2-1-dev/now 1.8.0-2.1build1 amd64 [installed,local]
+  SSH2 client-side library (development headers)
+
+libssl-dev/now 1.1.1f-1ubuntu2 amd64 [installed,local]
+  Secure Sockets Layer toolkit - development files
+
+libstdc++6/now 10.2.0-5ubuntu1~20.04 amd64 [installed,local]
+  GNU Standard C++ Library v3
+
+libsystemd0/now 245.4-4ubuntu3.3 amd64 [installed,local]
+  systemd utility library
+
+libtasn1-6/now 4.16.0-2 amd64 [installed,local]
+  Manage ASN.1 structures (runtime)
+
+libtiff-doc/now 4.1.0+git191117-2build1 all [installed,local]
+  TIFF manipulation and conversion documentation
+
+libtiff-opengl/now 4.1.0+git191117-2build1 amd64 [installed,local]
+  TIFF manipulation and conversion tools
+
+libtiff-tools/now 4.1.0+git191117-2build1 amd64 [installed,local]
+  TIFF manipulation and conversion tools
+
+libtiff5/now 4.1.0+git191117-2build1 amd64 [installed,local]
+  Tag Image File Format (TIFF) library
+
+libtiffxx5/now 4.1.0+git191117-2build1 amd64 [installed,local]
+  Tag Image File Format (TIFF) library -- C++ interface
+
+libtinfo6/now 6.2-0ubuntu2 amd64 [installed,local]
+  shared low-level terminfo library for terminal handling
+
+libudev1/now 245.4-4ubuntu3.1 amd64 [installed,local]
+  libudev shared library
+
+libudunits2-dev/now 2.2.26-5 amd64 [installed,local]
+  Development files for the libunits physical units package
+
+libunistring2/now 0.9.10-2 amd64 [installed,local]
+  Unicode string library for C
+
+libuuid1/now 2.34-0.1ubuntu9.1 amd64 [installed,local]
+  Universally Unique ID library
+
+libxml2-dev/now 2.9.10+dfsg-5 amd64 [installed,local]
+  Development files for the GNOME XML library
+
+libxslt1-dev/now 1.1.34-4 amd64 [installed,local]
+  XSLT 1.0 processing library - development kit
+
+libzmq3-dev/now 4.3.2-2ubuntu1 amd64 [installed,local]
+  lightweight messaging kernel (development files)
+
+libzstd1/now 1.4.4+dfsg-3 amd64 [installed,local]
+  fast lossless compression algorithm
+
+locales/now 2.31-0ubuntu9.1 all [installed,local]
+  GNU C Library: National Language (locale) data [support]
+
+login/now 1:4.8.1-1ubuntu5 amd64 [installed,local]
+  system login tools
+
+logsave/now 1.45.5-2ubuntu1 amd64 [installed,local]
+  save the output of a command in a log file
+
+lsb-base/now 11.1.0ubuntu2 all [installed,local]
+  Linux Standard Base init script functionality
+
+lsb-release/now 11.1.0ubuntu2 all [installed,local]
+  Linux Standard Base version reporting utility
+
+make/now 4.2.1-1.2 amd64 [installed,local]
+  utility for directing compilation
+
+mawk/now 1.3.4.20200120-2 amd64 [installed,local]
+  Pattern scanning and text processing language
+
+mount/now 2.34-0.1ubuntu9 amd64 [installed,local]
+  tools for mounting and manipulating filesystems
+
+ncurses-base/now 6.2-0ubuntu2 all [installed,local]
+  basic terminal type definitions
+
+ncurses-bin/now 6.2-0ubuntu2 amd64 [installed,local]
+  terminal-related programs and man pages
+
+netcdf-bin/now 1:4.7.3-1 amd64 [installed,local]
+  Programs for reading and writing NetCDF files
+
+passwd/now 1:4.8.1-1ubuntu5 amd64 [installed,local]
+  change and administer password and group data
+
+perl-base/now 5.30.0-9ubuntu0.2 amd64 [installed,local]
+  minimal Perl system
+
+perl/now 5.30.0-9ubuntu0.2 amd64 [installed,local]
+  Larry Wall's Practical Extraction and Report Language
+
+postgis/now 3.0.0+dfsg-6ubuntu4 amd64 [installed,local]
+  Geographic objects support for PostgreSQL
+
+procps/now 2:3.3.16-1ubuntu2 amd64 [installed,local]
+  /proc file system utilities
+
+protobuf-compiler/now 3.6.1.3-2ubuntu5 amd64 [installed,local]
+  compiler for protocol buffer definition files
+
+psmisc/now 23.3-1 amd64 [installed,local]
+  utilities that use the proc file system
+
+python-setuptools/now 44.0.0-2 all [installed,local]
+  Python Distutils Enhancements
+
+python3-dev/now 3.8.2-0ubuntu2 amd64 [installed,local]
+  header files and a static library for Python (default)
+
+python3-pip/now 20.0.2-5ubuntu1.1 all [installed,local]
+  Python package installer
+
+qpdf/now 9.1.1-1build1 amd64 [installed,local]
+  tools for transforming and inspecting PDF files
+
+raptor2-utils/now 2.0.15-0ubuntu1.20.04.1 amd64 [installed,local]
+  Raptor 2 RDF parser and serializer utilities
+
+rasqal-utils/now 0.9.33-0.1 amd64 [installed,local]
+  Rasqal RDF Query utilities
+
+redland-utils/now 1.0.17-1.1ubuntu1 amd64 [installed,local]
+  Redland Resource Description Framework (RDF) Utility programs
+
+rstudio-server/now 1.3.1093 amd64 [installed,local]
+  RStudio Server
+
+sed/now 4.7-1 amd64 [installed,local]
+  GNU stream editor for filtering/transforming text
+
+sensible-utils/now 0.0.12+nmu1 all [installed,local]
+  Utilities for sensible alternative selection
+
+sqlite3/now 3.31.1-4ubuntu0.2 amd64 [installed,local]
+  Command line interface for SQLite 3
+
+sudo/now 1.8.31-1ubuntu1.1 amd64 [installed,local]
+  Provide limited super user privileges to specific users
+
+sysvinit-utils/now 2.96-2.1ubuntu1 amd64 [installed,local]
+  System-V-like utilities
+
+tar/now 1.30+dfsg-7 amd64 [installed,local]
+  GNU version of the tar archiving utility
+
+texinfo/now 6.7.0.dfsg.2-5 amd64 [installed,local]
+  Documentation system for on-line information and printed output
+
+texlive-local/now 2016-1~9 all [installed,local]
+  A local installation of TeX Live 2016.
+
+tk-dev/now 8.6.9+1 amd64 [installed,local]
+  Toolkit for Tcl and X11 (default version) - development files
+
+ubuntu-keyring/now 2020.02.11.2 all [installed,local]
+  GnuPG keys of the Ubuntu archive
+
+unixodbc-dev/now 2.3.6-0.1build1 amd64 [installed,local]
+  ODBC libraries for UNIX (development files)
+
+unzip/now 6.0-25ubuntu1 amd64 [installed,local]
+  De-archiver for .zip files
+
+util-linux/now 2.34-0.1ubuntu9 amd64 [installed,local]
+  miscellaneous system utilities
+
+vim/now 2:8.1.2269-1ubuntu5 amd64 [installed,local]
+  Vi IMproved - enhanced vi editor
+
+wget/now 1.20.3-1ubuntu1 amd64 [installed,local]
+  retrieves files from the web
+
+xzdec/now 5.2.4-1ubuntu1 amd64 [installed,local]
+  XZ-format compression utilities - tiny decompressors
+
+zip/now 3.0-11build1 amd64 [installed,local]
+  Archiver for .zip files
+
+zlib1g/now 1:1.2.11.dfsg-2ubuntu1.2 amd64 [installed,local]
+  compression library - runtime
+
