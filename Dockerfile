@@ -24,6 +24,7 @@ RUN python3 -m pip --no-cache-dir install --upgrade \
   setuptools
 # install public python dependencies
 RUN python3 -m pip --no-cache-dir install --upgrade \
+  emmodel \
   pymc3 \
   PyPDF2 \
   pyyaml \
