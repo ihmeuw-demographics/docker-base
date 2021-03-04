@@ -50,6 +50,7 @@ RUN install2.r --error --deps TRUE \
     openxlsx \
     pacman \
     pkgdown \
+    pdftools\
     pscl \
     profvis \
     readstata13 \
