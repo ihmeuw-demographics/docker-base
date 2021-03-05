@@ -9,9 +9,13 @@ RUN echo "Sys.umask(2)" >> /usr/local/lib/R/etc/Rprofile.site
 # install system level dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     dos2unix \
+    libleptonica-dev \
+    libpoppler-cpp-dev \
     libpython3-dev \
+    libtesseract-dev \
     python3-dev \
     python3-pip \
+    tesseract-ocr-eng \
     && rm -rf /var/lib/apt/lists/*
 
 
@@ -50,6 +54,7 @@ RUN install2.r --error --deps TRUE \
     openxlsx \
     pacman \
     pkgdown \
+    pdftools\
     pscl \
     profvis \
     readstata13 \
